@@ -3,28 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/img/img.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
         <title>Mangas-Pilou</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="/" id="logo"></a>
-            <li>
-                <a href="/">Accueil</a>
+            <div id="fond">
+                <a href="/"><img src="./img/image-de-fond/imagefond.png"></a>
+            </div>
+            <div id="logo">
+                <a href="/"><img src="./img/logo/LOGO.png" alt="">
+            </div></a>
+        <ul>
+            <li id="Figurines" onclick="Figurines()">
+                <a href="/">Figurines</a>
             </li>
-            <li>
-                <a href="/">A propos de nous</a>
+            <li id="Livres" onclick="Livres()">
+                <a href="/">Livres</a>
             </li>
-            <li>
-                <a href="/">Lieu</a>
+            <li id="Vetements" onclick="Vetements()">
+                <a href="/">Vetements</a>
             </li>
-            <li>
-                <a href="/">Boutique</a>
+            <li id="Goodies" onclick="Goodies()">
+                <a href="/">Goodies</a>
             </li>
-            <li>
-                <a href="/">Contact</a>
-            </li>
+            <span>
+                
+            </span>
+        </ul>
         </nav>
     </header>
+
+<!-- page d'acceuil -->
+<section id="acceuil">
+        <p>Bienvenue sur le site Mangas Pilou. <br><br>
+        Ici tu trouveras tout ce que tu a besoin en termes collections de MANGAS. <br>
+        N'hésite pas à visiter le site et si besoin tu peux me contacter.<br><br><br><br><br><br><br>
+        Bonne visite et à bientôt.</p> <br><br>
+        <div id="icone-mail">
+            <a href="mailto:quintlodu62@orange.fr" target="_blank">
+                <img src="/img/logo/mail.png">
+            </a>
+        </div><br>
+        <div id="icone-tiktok">
+            <a href="https://www.tiktok.com/@redpilou" target="_blank">
+                <img src="/img/logo/TikTok.png">
+            </a><br><br>
+        </div>
+</section>
+<!-- Figurines -->
+<section id="Figurines">
+</section>
+<!-- Livres -->
+<section id="Livres">
+</section>
+<!-- Vetements -->
+<section id="Vetements">
+</section>
+<!-- Goodies -->
+<section id="Goodies">
+</section>
 </body>
 </html>
