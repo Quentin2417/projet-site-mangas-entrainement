@@ -2,7 +2,7 @@
     width: 180px; 
  }
  #acceuil img{
-    display: none;
+    /* display: flex; */
  }
  #fond img{
     display: none;
